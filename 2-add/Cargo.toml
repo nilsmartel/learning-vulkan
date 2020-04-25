@@ -1,0 +1,9 @@
+[package]
+name = "testing"
+version = "0.1.0"
+authors = ["Nils Martel <nils.martel@graphmasters.net>"]
+edition = "2018"
+
+[dependencies]
+vulkano = "0.18.0"
+vulkano-shaders = "0.18.0"    # Shaders rust code generation macro
